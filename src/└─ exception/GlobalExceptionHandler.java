@@ -12,7 +12,9 @@ public class GlobalExceptionHandler {
     
 
     public ResponseEntity<Void> handlejsonInvalido() {
+        //
         return ResponseEntity.badRquest().build();
+        
     }
 
 }
